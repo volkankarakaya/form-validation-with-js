@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+    
+}
+
+body{
+    background: aqua;
+    color: rgb(67, 67, 67);
+  
+}
+
+select,input:not([type="checkbox"]):not([type="radio"]){
+    width: 100%;
+    height: 50px;
+ 
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+
+    background: transparent;
+    font-size: 16px;
+    margin-bottom: 16px;
+    
+
+}
+
+select option{
+    color:#111
+    
+}
+
+textarea{
+    width: 100%;
+    outline: none;
+    border-width: 0 0 2px;
+    border-color: gray;
+    background: transparent;
+    color: black;
+    padding: 10px 0;
+}
+
+.form{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid gray;
+    padding: 24px;
+
+}
+
+li{
+    list-style: none;
+}
+
+label{
+    font-size: 14px;
+    color: rgba(#fff,.8);
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 36px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background: lightcyan;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.error-msg{
+    font-size: 12px;
+    padding-top: 10px;
+    display: block;
+    color: orangered;
+}
+
+li.error>input,li.error>textarea,li.error>select{
+    border-color:red
+}
+

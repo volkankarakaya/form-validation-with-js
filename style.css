@@ -20,6 +20,7 @@ form{
     grid-template-rows: repeat(4,1fr) 2fr;
     column-gap: 64px;
     row-gap: 16px;
+    max-width: 1260px;
 }
 
 .form-item{
@@ -39,6 +40,7 @@ input{
     border: 2px solid #fcd34d;
     background: white;
     border-radius: 4px;
+    
 }
 
 .btn-container{
@@ -58,4 +60,8 @@ button{
     color: white;
     border: none;
     border-radius: 4px;
+}
+
+div.error{
+    background-color:rgba(255,0,0, 0.3);
 }

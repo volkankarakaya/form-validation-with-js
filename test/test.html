@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="test.css">
+    <title>Test Form</title>
+</head>
+<body>
+
+    <form action="" class="form" id="form1" novalidate>
+        <h3>Giris Formu</h3>
+<ul>
+    <li>
+        <label for="">Kullanıcı Adı</label>
+        <input type="text" name="username" id="" required>
+    </li>
+    <li>
+        <label for="">Eposta Adresiniz</label>
+        <input type="email" required name="email">
+    </li>
+    <li>
+        <label for="">Şifreniz</label>
+        <input type="password" required name="password">
+    
+    </li>
+    <li>
+        <label for="">GitHub Adresin</label>
+        <input type="url" name="github_url" required>
+    </li>
+    <li>
+        <label for="">Bilgi Düzeyiniz</label>
+        <select name="knowledge" id="" required>
+            <option value="">Seçin</option>
+            <option value="">İyi</option>
+            <option value="">Orta</option>
+            <option value="">Başlangıç</option>
+        </select>
+    </li>
+    <li>
+        <label for="">Hakkınızda</label>
+        <textarea name="about" id="" cols="30" rows="10" required></textarea>
+    </li>
+    <li>
+        <label for="">Fotografin</label>
+        <input type="file" name="photo" required>
+    </li>
+    <li>
+        <label for="">Cinsiyet</label>
+        <div class="radio-container">
+            <input type="radio" name="gender" value="2" required>erkek
+            <input type="radio" name="gender" value="1" required>kadin
+        </div>
+    </li>
+    <li>
+        <label for="">Hobileriniz</label>
+        <div class="checkbox-container">
+            <input type="checkbox" value="bisiklete binmek"required>Kurallari okudum ve kabul ediyorum
+       
+        </div>
+    </li>
+    <li>
+        <button type="submit">Gönder</button>
+    </li>
+</ul>
+    </form>
+    
+</body>
+</html>

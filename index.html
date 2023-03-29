@@ -4,45 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <title>Form Validation</title>
   </head>
   <body>
 <h1>Form Validation</h1>
 
-    <form action="">
+    <form action="" id="validation-form" novalidate>
       <div class="form-item name">
         <label for="name">Name</label>
-        <input type="text" id="name" />
+        <input type="text" id="name" required/>
       </div>
       <div class="form-item lastname">
         <label for="lastname">Lastname</label>
-        <input type="text" id="lastname" />
+        <input type="text" id="lastname" required/>
       </div>
       <div class="form-item phone">
         <label for="phone">Phone Number</label>
-        <input type="text" id="phone"/>
+        <input type="text" id="phone" required/>
       </div>
       <div class="form-item email">
         <label for="email">Email</label>
-        <input type="email" />
+        <input type="email" required />
       </div>
       <div class="form-item country">
         <label for="country">Country</label>
-        <input type="text" id="country"/>
+        <input type="text" id="country" required/>
       </div>
       <div class="form-item zip">
         <label for="zip">Zip Code</label>
-        <input type="text" id="zip" />
+        <input type="text" id="zip" required/>
       </div>
       <div class="form-item password">
         <label for="password">Password</label>
-        <input type="password" id="password"/>
+        <input type="password" id="password" required/>
       </div>
       <div class="form-item confirm-password">
         <label for="confirm-password">Confirm Password</label>
-        <input type="password" id="confirm-password"/>
+        <input type="password" id="confirm-password" required/>
       </div>
       <div class="form-item btn-container">
         <button type="submit">Submit</button>
